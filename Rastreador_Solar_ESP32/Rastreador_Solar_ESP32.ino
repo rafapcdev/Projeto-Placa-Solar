@@ -5,11 +5,11 @@
 
 // --- Configurações da Rede Wi-Fi ---
 // 1. Configuração do seu Roteador (Para acessar sem desconectar a internet)
-const char *ssid = "NOME_DO_SEU_ROTEADOR";
-const char *password = "SENHA_DO_SEU_ROTEADOR";
+const char *ssid = "nome-da-rede-aqui";
+const char *password = "senha-aqui";
 
 // 2. Ponto de Acesso de Emergência (Caso o ESP32 não ache o seu roteador)
-const char *ap_ssid = "Robotica";
+const char *ap_ssid = "Robotica1";
 const char *ap_password = "robo0025"; // Mínimo 8 caracteres
 
 // Porta do Servidor Web
@@ -24,7 +24,7 @@ const int servoPinVert = 18; // Servo Vertical
 // ======================================================
 //                  PINOS DOS LDRs
 // ======================================================
-const int ldrTL = 32; // Top Left
+const int ldrTL = 32; // Top Leftf
 const int ldrTR = 33; // Top Right
 const int ldrBL = 34; // Bottom Left
 const int ldrBR = 35; // Bottom Right
@@ -116,7 +116,7 @@ void setup() {
 
   // Configuração Híbrida de Rede Wi-Fi
   WiFi.mode(WIFI_AP_STA); // Habilita modo Cliente (STA) e Ponto de Acesso (AP)
-  
+
   Serial.print("Tentando conectar no Wi-Fi do roteador: ");
   Serial.println(ssid);
   WiFi.begin(ssid, password);
@@ -135,7 +135,8 @@ void setup() {
     Serial.print("Conecte-se em http://");
     Serial.println(WiFi.localIP());
   } else {
-    Serial.println("Falha ao conectar no roteador. Iniciando AP de emergência...");
+    Serial.println(
+        "Falha ao conectar no roteador. Iniciando AP de emergência...");
     WiFi.softAP(ap_ssid, ap_password);
     Serial.print("Conecte-se na rede '");
     Serial.print(ap_ssid);
