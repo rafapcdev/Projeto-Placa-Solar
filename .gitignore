@@ -1,0 +1,11 @@
+# Arquivos de compilação local da Arduino IDE
+/Rastreador_Solar_ESP32/build/
+/Rastreador_Solar_ESP32/staging/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Arquivos locais de ambiente ou IDEs secundárias
+.vscode/
+.DS_Store
