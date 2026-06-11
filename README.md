@@ -1,4 +1,4 @@
-[![Vídeo de demonstração](images/thumb.png)](https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
+[![Vídeo de demonstração](images/thumb.png)](https://github.com/rafapcdev/Projeto-Placa-Solar/issues/75#issue-4640533224)
 
 # Rastreador Solar Ativo com ESP32 (4 LDRs)
 
