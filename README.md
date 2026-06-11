@@ -1,3 +1,5 @@
+[![Vídeo de demonstração](images/thumb.png)](https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
+
 # Rastreador Solar Ativo com ESP32 (4 LDRs)
 
 Este projeto implementa um sistema inteligente de rastreamento solar utilizando um microcontrolador ESP32, dois servomotores (para controle dos eixos horizontal e vertical) e quatro sensores LDR dispostos em quadrantes. 
