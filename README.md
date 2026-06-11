@@ -1,6 +1,12 @@
+
+https://github.com/user-attachments/assets/dac909a0-6c4e-4e17-bab5-4585c335be71
 ## 📺 Demonstração do Projeto
 
-<video src="https://github.com/rafapcdev/Projeto-Placa-Solar/issues/75#issue-4640533224"></video>
+
+
+Uploading WhatsApp Video 2026-06-11 at 09.44.23.mp4…https://github.com/rafapcdev/Projeto-Placa-Solar/issues/75#issue-4640533224
+
+
 
 
 
