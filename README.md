@@ -1,8 +1,8 @@
 ## 📺 Demonstração do Projeto
 
-
-
 https://github.com/rafapcdev/Projeto-Placa-Solar/issues/75#issue-4640533224
+
+
 
 # Rastreador Solar Ativo com ESP32 (4 LDRs)
 
